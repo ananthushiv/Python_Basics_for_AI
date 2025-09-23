@@ -181,6 +181,21 @@ print(txt)
 
 #String Methods
 #---------------------------------------------------
+#capitalize()	Converts the first character to upper case
+#casefold()	Converts string into lower case
+#center()	Returns a centered string
+#count()	Returns the number of times a specified value occurs in a string
+#encode()	Returns an encoded version of the string
+#endswith()	Returns true if the string ends with the specified value
+#expandtabs()	Sets the tab size of the string
+#find()	Searches the string for a specified value and returns the position of where it was found
+#index()	Searches the string for a specified value and returns the position of where it was found
+#isalnum()	Returns True if all characters in the string are alphanumeric
+#isalpha()	Returns True if all characters in the string are in the alphabet
+#isdecimal()	Returns True if all characters in the string are decimals
+#isdigit()	Returns True if all characters in the string are digits
+#isidentifier()	Returns True if the string is an identifier
+#islower()	Returns True if all characters in the string are lower case
 
 a = " Hello, World! "
 print(a.strip()) # returns "Hello, World!"
@@ -212,4 +227,4 @@ print(a.removesuffix("World! ")) # returns " Hello, "
 print(a.partition(", ")) # returns (' Hello', ', ', 'World! ')
 print(a.rpartition(", ")) # returns (' Hello', ', ', 'World! ')
 print(a.splitlines()) # returns [' Hello, World! ']
-
+print(a.expandtabs(4)) # returns " Hello, World! "
